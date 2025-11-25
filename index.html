@@ -26,10 +26,13 @@
   </head>
   
   <body>
+    <nav>
+      <img src="my-music-img/song-icon.jpg" style="width: 100px;">
+      <h1>My play lists</h1>
+    </nav>
 
     <header id="header">
-      <img src="my-music-img/song-icon.jpg" style="width: 150px;">
-      <h1>My play list</h1>
+      <h1>My play lists</h1>
       <h4>เว็บไวต์มีไว้สำหรับคนที่ไม่รู้จะฟังเพลงอะไร แนวไหนดี เผื่อเจอเพลงที่ตามหา</h4>
       
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
@@ -40,9 +43,9 @@
       </ul>                 
     </header>
    
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
+    <div id="container" style="height: 100%;">
+      <div class="inner" style="height: 100%;">
+        <div id="content" style="height: 100%;"> 
           
           <div id="home" class="content-region hide">
             <h2>Sad play list</h2>
@@ -63,9 +66,38 @@
       </div>
     </div>
 
-    <footer>  
-      Footer region
-    </footer>
+    <footer class="site-footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>About</h3>
+            <p>เว็บไซต์แบ่งปันเพลย์ลิสต์เพลงสำหรับทุกอารมณ์ ฟังเพลงโปรดของคุณได้ทุกวัน</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#playlist">Playlist</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Music is Life — All rights reserved.
+    </div>
+</footer>
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
